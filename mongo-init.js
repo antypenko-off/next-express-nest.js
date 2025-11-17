@@ -1,0 +1,12 @@
+db.createUser(
+    {
+        user:'volodymyr_antypenko',
+        pwd:'cXROO3VXU0TFLj61',
+        roles:[
+            {
+                role:'readWrite',
+                db:'nodejs-express-db'
+            }
+        ]
+    }
+)
