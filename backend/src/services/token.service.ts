@@ -29,6 +29,7 @@ class TokenService {
     ): ITokenPayload {
         try {
             let secret: string;
+            console.log(config.JWT_ACCESS_SECRET);
 
             switch (type) {
                 case TokenTypeEnum.ACCESS:
